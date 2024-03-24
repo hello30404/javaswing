@@ -497,7 +497,7 @@ public class Main extends javax.swing.JFrame {
 
                 PermissonLabel.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
                 PermissonLabel.setIcon(new javax.swing.ImageIcon("src/assets/icon/security.png")); // NOI18N
-                PermissonLabel.setText("Phân quyền");
+                PermissonLabel.setText("Tài khoản");
                 PermissonLabel.setIconTextGap(10);
                 PermissonLabel.setMaximumSize(new java.awt.Dimension(124, 32));
                 PermissonLabel.setMinimumSize(new java.awt.Dimension(124, 32));
@@ -544,10 +544,10 @@ public class Main extends javax.swing.JFrame {
 
                 ItemWareHouse.setBackground(new java.awt.Color(248, 249, 250));
                 WareHouseLable.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
-                WareHouseLable.setIcon(new javax.swing.ImageIcon("src/assets/icon/warehouse.png")); // NOI18N
-                WareHouseLable.setText("Kho");
-                WareHouseLable.setIconTextGap(10);
-
+                WareHouseLable.setIcon(new javax.swing.ImageIcon("src/assets/icon/parcel.png")); // NOI18N
+                WareHouseLable.setText("Kho hàng");
+                WareHouseLable.setIconTextGap(12);
+                
                 WareHouseLable.addMouseListener(new java.awt.event.MouseAdapter() {
                         public void mouseClicked(java.awt.event.MouseEvent evt) {
                                 WareHouseLabelMouseClicked(evt);
@@ -566,7 +566,7 @@ public class Main extends javax.swing.JFrame {
                                                                                                 .addGap(0, 18, Short.MAX_VALUE)
                                                                                                 .addComponent(WareHouseLable,
                                                                                                                 javax.swing.GroupLayout.PREFERRED_SIZE,
-                                                                                                                164,
+                                                                                                                170,
                                                                                                                 javax.swing.GroupLayout.PREFERRED_SIZE)
 
                                                                 )));
@@ -1002,7 +1002,7 @@ public class Main extends javax.swing.JFrame {
         }
 
         private void LogoutLabelMouseClicked(java.awt.event.MouseEvent evt) {
-                
+
         }
 
         /**
